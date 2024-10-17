@@ -9,7 +9,7 @@ const rl = readline.createInterface({
 // Function to make API request and return the response
 async function fetchData(content) {
     try {
-        const response = await axios.post('http://de3.bot-hosting.net:22694/api/chat', {
+        const response = await axios.post('https://api.shx.my.id/api/chat', {
             content: content
         }, {
             headers: {
